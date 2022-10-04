@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <title>Best sneakers</title>
+</head>
+<body>
+    <div class="header">
+        <div class="first">
+            <div class="first-one">
+                <i class="fas fa-phone-alt"></i>
+                <p>0800 123 123</p>
+            </div>
+            <div class="second-one">
+                 <i class="fas fa-mobile-alt"></i>
+                <p>062 541 23 45</p>
+            </div>
+        </div>
+        <div class="pok">
+           
+            <a href="#" id="eng" onclick="promena()">en</a>
+            <a href="#" id="srp"onclick="srpski()">sr</a>
+        </div>
+    </div>
+    <!--drugi header-->
+    <div class="header1">
+        <div class="second">
+            <i class="fas fa-truck"></i>
+            <p class="dost">Besplatna dostava za porudzbine preko 3000 dinara</p>
+         </div>
+        <div class="name">
+            <h2>BEST</h2>
+            <a href="index.html"><img src="pictures/logo.png.jpg"></a>
+            <h2>SNEAKERS</h2>
+        </div>
+        <div class="name2">
+           
+        
+            <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+    </div>
+    <!--navigacija-->
+    <div class="nav">
+        <ul id="nav-ul" class="nav-ul">
+            <li><a href="index.html" class="leto">POCETNA</a></li>
+            <li><a href="muskarci.html" class="muskarci">MUSKARCI</a></li>
+            <li><a href="zene.html" class="zene">ZENE</a></li>
+           
+            <li><a href="autor.html"  class="autor-link">AUTOR</a></li>
+        </ul>
+        <div class="porudzbina">
+            <i class="fas fa-truck"></i>
+            <p class="dost">Besplatna dostava za porudzbine preko 3000 dinara</p>
+         </div>
+    </div>
+    <!--main-->
+    <div class="kontakt">
+        <div class="forma">
+            <div class="tekst">
+                <p class="kone">KONTAKT</p>
+            </div>
+            <div class="unos">
+                 <form action="" onsubmit="return validation()" autocomplete="off"> <!--/action_page.php-->
+                    <div class="ime">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="ime" placeholder="Ime*" required="required">
+                    </div>
+                    <p id="uslov1">najmanje 5 karaktera,pocetno slovo mora biti veliko,bez brojeva</p>
+                    <div class="ime">
+                        <i class="fas fa-phone-alt"></i>
+                        <input type="text" id="telefon" placeholder="Mobilni">
+                    </div>
+                    <p id="uslov2">samo brojeve,bez praznina,tacno 10 cifara</p>
+                    <div class="ime">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" id="email" placeholder="Email*" required="required">
+                    </div>
+                    <p id="uslov3">najmanje 6 karaktera,idu redom mala slova,@ opet mala slova i na kraju .com</p>
+                    <div class="ime">
+                        <i class="fas fa-edit"></i>
+                       <textarea id="poruka" rows="6" placeholder="Poruka*"></textarea>
+                    </div>
+                    <p id="uslov4">najmanje 200 karaktera</p>
+                    <div class="potvrda">
+                        <input type="submit" value="POSALJI" id="posalji">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="informacije">
+        <div class="ikonice">
+            <a href="https://www.facebook.com/samir.talovic.92"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="https://www.instagram.com/samirtalovic_99/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.youtube.com/watch?v=oEidcYrVVO0"><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+        <div class="ostatak">
+            
+            <a href="utisci.html" class="utis">Utisci kupaca</a>
+            <a href="kontakt.html" class="kon">Kontakt</a>
+            <a href="aboutme.html" class="ser">Developers</a>
+        </div>
+        <div class="newsletter">
+            <p>NEWSLETTER</p>
+            
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="prav"><span> Copyright &copy; 2022</span>Sva prava zadrzana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

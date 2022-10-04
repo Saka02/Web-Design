@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <title>Best sneakers</title>
+</head>
+<body>
+    <!--prvi header-->
+    <div class="header">
+        <div class="first">
+            <div class="first-one">
+                <i class="fas fa-phone-alt"></i>
+                <p>0800 123 123</p>
+            </div>
+            <div class="second-one">
+                 <i class="fas fa-mobile-alt"></i>
+                <p>063 17 47 820</p>
+            </div>
+        </div>
+        <div class="pok">
+            <a href="#" id="eng" onclick="promena()">en</a>
+            <a href="#" id="srp"onclick="srpski()">sr</a>
+        </div>
+    </div>
+    <!--drugi header-->
+    <div class="header1">
+        <div class="second">
+            <i class="fas fa-truck"></i>
+            <p class="dost">Besplatna dostava za porudzbine preko 3000 dinara</p>
+         </div>
+        <div class="name">
+            <h2>BEST</h2>
+            <a href="index.html"><img src="pictures/logo.png.jpg"></a>
+            <h2>SNEAKERS</h2>
+        </div>
+        <div class="name2">
+            <form action="">
+              
+            <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+    </div>
+    <!--navigacija-->
+    <div class="nav">
+        <ul id="nav-ul" class="nav-ul">
+            <li><a href="index.html" class="leto trenutna">POCETNA</a></li>
+            <li><a href="muskarci.html" class="muskarci">MUSKARCI</a></li>
+            <li><a href="zene.html" class="zene">ZENE</a></li>
+            <li><a href="autor.html"  class="autor-link">AUTOR</a></li>
+        </ul>
+        <div class="porudzbina">
+            <i class="fas fa-truck"></i>
+            <p class="dost">Besplatna dostava za porudzbine preko 3000 dinara</p>
+         </div>
+    </div>
+    <!--slider-->
+   <div id="slider">
+       <figure>
+           <img src="pictures/patike3.jpg" alt="patike-reklama">
+           <img src="pictures/patike5.png" alt="patike-reklama">
+           <img src="pictures/patike1.jpg" alt="patike-reklama">
+       </figure>
+   </div>
+    <!--pomocni div-->
+    <div class="help">
+    </div>
+    <!--drugi main-->
+    <section class="main1">
+        <div class="prva">
+            <img src="pictures/kosarka.jpg" alt="kosarka">
+            <div class="tekst">
+                <p class="kos">KOSARKA</p>
+            </div>
+        </div>
+        <div class="prva">
+            <img src="pictures/fudbal.jpg" alt="fudbal">
+            <div class="tekst">
+                <p class="fud">FUDBAL</p>
+             </div>
+        </div>
+        <div class="prva">
+            <img src="pictures/trcanje.jpg" alt="trcanje">
+            <div class="tekst">
+                <p class="trc">TRCANJE</p>
+             </div>
+        </div>
+    </section>
+    <!--pomocni div-->
+    <div class="help">
+    </div>
+    <!--Istaknuti proizvodi-tekst-->
+    <div class="istaknuti-tekst">
+        <h2 class="ist">Istaknuti Proizvodi</h2>
+        <p></p>
+    </div>
+    <!--Istaknuti proizvodi-slike-->
+    <div class="istaknuti-slike">
+        <div>
+            <img src="pictures/istaknut1.jpg" alt="adidas">
+            <p>Adidas Samba</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>8800 din</p>
+        </div>
+        <div>
+            <img src="pictures/istaknut2.jpg" alt="reebok">
+            <p>Reebok the Question</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-0"></i>
+            </div>
+            <p>7600 din</p>
+        </div>
+        <div>
+            <img src="pictures/istaknut3.jpg" alt="ellese">
+            <p>Visionarism X Ellese</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>8000 din</p>
+        </div>
+    </div>
+    <!--Poslednji proizvodi-tekst-->
+    <div class="poslednji-tekst">
+        <h2 class="pos">Poslednji Proizvodi</h2>
+        <p></p>
+    </div>
+    <!--Poslednji proizvodi-->
+    <div class="istaknuti-slike">
+        <div>
+            <img src="pictures/poslednji1.jpg" alt="adidas">
+            <p>Adidas X9000L1 M</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>6800 din</p>
+        </div>
+        <div>
+            <img src="pictures/poslednji3.jpg" alt="adidas">
+            <p>Adidas Late Racer 2.0</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-0"></i>
+            </div>
+            <p>6200 din</p>
+        </div>
+        <div>
+            <img src="pictures/poslednji4.jpg" alt="Fila">
+            <p>Fila Windshift 15</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>5500 din</p>
+        </div>
+    </div>
+
+    <!--Najprodavaniji proizvodi-tekst-->
+    <div class="poslednji-tekst">
+        <h2 class="naj">Najprodavaniji proizvodi</h2>
+        <p></p>
+    </div>
+    <!--Najprodavaniji proizvodi-->
+    <div class="istaknuti-slike">
+        <div>
+            <img src="pictures/najprodavaniji1.jpg" alt="adidas">
+            <p>ADIDAS EQT</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>9000 din</p>
+        </div>
+        <div>
+            <img src="pictures/najprodavaniji2.jpeg" alt="reebok">
+            <p>REEBOK TREAD LITE LUX LP</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>5000 din</p>
+        </div>
+        <div>
+            <img src="pictures/najprodavaniji3.jpg" alt="puma">
+            <p>PUMA Match</p>
+            <div class="zvezdice">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>6000 din</p>
+        </div>
+    </div>
+    <!--Div sa logovima-->
+    <div class="logovi">
+        <img src="pictures/adidas.png" alt="adidas-logo">
+        <a href="https://www.instagram.com/samirtalovic_99/"><img src="pictures/puma2.jpg" alt="puma-logo"></a>
+        <img src="pictures/reebok.png" alt="reebok-logo">
+        <img src="pictures/rang.png" alt="rang-logo">
+        <img src="pictures/ellese.png" alt="ellese-logo">
+        <img src="pictures/fila.gif" alt="fila-logo">
+        <img src="pictures/lotto.png" alt="loto-logo">
+        <img src="pictures/skechers.png" alt="skechers-logo">
+        <img src="pictures/new-balance.jpg" alt="new balance-logo">
+        <img src="pictures/umbro.png" alt="umbro-logo">
+    </div>
+    <!--Informacije-->
+    <div class="informacije">
+        <div class="ikonice">
+            <a href="https://www.facebook.com/samir.talovic.92"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="https://www.instagram.com/samirtalovic_99/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.youtube.com/watch?v=oEidcYrVVO0"><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+        <div class="ostatak">
+            
+            <a href="utisci.html" class="utis">Utisci kupaca</a>
+            <a href="kontakt.html" class="kon">Kontakt</a>
+            <p><a href="aboutme.html">Developers</a></p> 
+            
+        </div>
+        <div class="newsletter">
+            <p>NEWSLETTER</p>
+            
+            
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+        <p class="prav"><span> Copyright &copy; 2022</span>Sva prava zadrzana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+/
