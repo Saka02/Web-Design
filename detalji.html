@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <title>Best sneakers</title>
+</head>
+<body>
+    <div class="header">
+        <div class="first">
+            <div class="first-one">
+                <i class="fas fa-phone-alt"></i>
+                <p>0800 123 123</p>
+            </div>
+            <div class="second-one">
+                 <i class="fas fa-mobile-alt"></i>
+                <p>063 17 47 820</p>
+            </div>
+        </div>
+        <div class="pok">
+            <a href="Prijava.html" class="prij">Prijavite se</a>
+            <hr>
+            <a href="Registracija.html"  class="reg">Registrujte se</a>
+            <a href="#" id="eng" onclick="promena()">en</a>
+            <a href="#" id="srp"onclick="srpski()">sr</a>
+        </div>
+    </div>
+    <div class="header1">
+        <div class="second">
+            <i class="fas fa-truck"></i>
+            <p class="dost">Besplatna dostava za porudzbine preko 3000 dinara</p>
+         </div>
+        <div class="name">
+            <h2>BEST</h2>
+            <a href="index.html"><img src="pictures/logo.png.jpg"></a>
+            <h2>SNEAKERS</h2>
+        </div>
+        <div class="name2">
+            <form action="">
+            
+            
+            <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+    </div>
+    <!--navigacija-->
+    <div class="nav">
+        <ul id="nav-ul" class="nav-ul">
+            <li><a href="index.html" class="leto">POCETNA</a></li>
+            <li><a href="muskarci.html" class="muskarci">MUSKARCI</a></li>
+            <li><a href="zene.html" class="zene">ZENE</a></li>
+
+            <li><a href="autor.html"  class="autor-link">AUTOR</a></li>
+        </ul>
+        <div class="porudzbina">
+            <i class="fas fa-truck"></i>
+            <p class="dost">Besplatna dostava za porudzbine preko 3000 dinara</p>
+         </div>
+    </div>
+    <!--main-->
+    <div class="proizvod">
+        <div class="male-slike">
+            <img src="pictures/male-slike/prva.jpg" alt="mala-slika" onclick="funkcija(this)">
+            <img src="pictures/male-slike/cetvrta.jpg" alt="mala-slika" onclick="funkcija(this)">
+            <img src="pictures/male-slike/peta.jpg" alt="mala-slika" onclick="funkcija(this)">
+            <img src="pictures/male-slike/treca.jpg" alt="mala-slika" onclick="funkcija(this)">
+            <img src="pictures/male-slike/druga.jpg" alt="mala-slika" onclick="funkcija(this)">
+        </div>
+        <div class="velike-slike">
+            <img src="pictures/male-slike/prva.jpg" alt="mala-slika" id="velika">
+            <div class="dugmad">
+                <input type="radio" name="radio-btn" id="radio1" onclick="funkcija2(this)">
+                <input type="radio" name="radio-btn" id="radio2" onclick="funkcija3(this)">
+                <input type="radio" name="radio-btn" id="radio3" onclick="funkcija4(this)">
+                <input type="radio" name="radio-btn" id="radio4" onclick="funkcija5(this)">
+                <input type="radio" name="radio-btn" id="radio5" onclick="funkcija6(this)">
+            </div>
+        </div>
+        <div class="inf">
+            <p class="tip">Muske lifestyle patike</p>
+            <h2>Adidas Runfalcon</h2>
+            <div class="vazeca">
+                <p class="vaz">Vazeca cena:</p>
+                <p>8990,00 RSD</p>
+            </div>
+            <div class="akcijska">
+                <p class="akc">Akcijska cena</p>
+                <p>7490,00 RSD</p>
+            </div>
+            <div class="usteda">
+                <p style="font-family:Verdana, Geneva, Tahoma, sans-serif" class="ust">Usteda: <span style="color: red;">1500,00 RSD</span></p>
+            </div>
+            <hr>
+            <div class="velicina">
+                <p class="izbo">IZBOR VELICINE</p>
+            </div>
+            <div class="brojevi">
+                <div class="okvir">
+                    <p>42</p>
+                </div>
+                <div class="okvir">
+                    <p>43</p>
+                </div>
+                <div class="okvir">
+                    <p>44</p>
+                </div>
+            </div>
+           
+            <div class="boje">
+                <p class="dostu">Dostupno u vise boja:</p>
+                <div class="patika">
+                    <img src="pictures/male-slike/sesta.jpg" alt="">
+                    <img src="pictures/male-slike/sedma.jpg" alt="">
+                    <img src="pictures/male-slike/osma.jpg" alt="">
+                </div>
+            </div>
+            <div class="tekst">
+                <p class="mode">Moderna udobnost i autentično Adidas nasleđe prepliću se <br> u Adidas RUNFALCON muškim patikama koje su inspirisane trčanjem.
+                <br> Patike će "nagraditi" Vaša stopala vrhunskim jastučićima i ultra <br> plišanim koracima sa Cloudfoam tehnologijom  <br> (penom poput oblaka)  srednjeg đona i mekanim ulošcima.</p>
+                 <p class="det">Detaljnije</p>
+            </div>
+        </div>
+    </div>
+    <div class="povezani">
+        <hr class="podela">
+        <div class="tekst">
+            <p class="povez">POVEZANI PROIZVODI</p>
+        </div>
+        <div class="proizvodi"> <!--lista nasih proizvoda-->
+            <div class="sve">
+                <img src="pictures/Muske/muskarci8.jpg" alt="adidas-patike" class="slike-patike">
+                <img src="pictures/adidas.png" alt="adidas-logo" class="slika-logo">
+                <p>Adidas X Ghosted.3 TF</p>
+                <p>9990 RSD</p>
+                <p>8490 RSD</p>
+            </div>
+            <div class="sve">
+                <img src="pictures/Muske/muskarci6.jpg" alt="reebok-patike" class="slike-patike">
+                <img src="pictures/reebok.png" alt="reebok-logo" class="slika-logo">
+                <p>Asics Rocket-9</p>
+                <p>5490 RSD</p>
+                <p>4490 RSD</p>
+            </div>
+            <div class="sve">
+                <img src="pictures/Muske/muskarci11.jpg" alt="umbro-patike" class="slike-patike">
+                <img src="pictures/umbro.png" alt="umbro-logo" class="slika-logo">
+                <p>Umbro Zeper 3XV</p>
+                <p>4990 RSD</p>
+                <p>3990 RSD</p>
+            </div>
+            <div class="sve">
+                <img src="pictures/Muske/muskarci12.jpg" alt="skechers-patike" class="slike-patike">
+                <img src="pictures/skechers.png" alt="skechers-logo" class="slika-logo">
+                <p>Skechers Delson 3.0</p>
+                <p>7990 RSD</p>
+                <p>6990 RSD</p>
+            </div>
+            <div class="sve">
+                <img src="pictures/Muske/muskarci4.jpg" alt="adidas-patike" class="slike-patike">
+                <img src="pictures/ellese.png" alt="ellese-logo" class="slika-logo">
+                <p>Ellese Tanker Lo OG</p>
+                <p>5000 RSD</p>
+                <p>4000 RSD</p>
+            </div>
+        </div>
+        <hr class="podela">
+    </div>
+    <div class="informacije">
+        <div class="ikonice">
+            <a href="https://www.facebook.com/samir.talovic.92"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="https://www.instagram.com/samirtalovic_99/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.youtube.com/watch?v=oEidcYrVVO0"><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+        <div class="ostatak">
+            
+            <a href="utisci.html" class="utis">Utisci kupaca</a>
+            <a href="kontakt.html" class="kon">Kontakt</a>
+            <p><a href="aboutme.html">Developers</a></p>
+        </div>
+        <div class="newsletter">
+            <p>NEWSLETTER</p>
+            
+            <i class="fas fa-chevron-right fa-2x"></i>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="prav"><span> Copyright &copy; 2022</span>Sva prava zadrzana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
